@@ -1,0 +1,49 @@
+* {
+  background-color: #E2E4E5;
+}
+
+.App {
+  margin: 10px;
+}
+
+.main-header {
+  border: 1px solid #5C6873;
+  background-color: #C9CDD1;
+  padding: 15px;
+  border-radius: 5px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.main-header form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.main-header form label {
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+
+}
+
+.main-header form input {
+  width: 300px;
+  border: 2px solid black
+}
+
+.imageList {
+  columns: 250px 5;
+  column-gap: 12px;
+  row-gap: 12px;
+  margin: 10px;
+}
+
+.imageListImg {
+  width: 100%;
+}
